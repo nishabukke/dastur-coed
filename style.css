@@ -1283,7 +1283,7 @@ select#website-select{
   }
 
   .section-ptb {
-    padding: 80px 0px 80px 0px;
+    padding: 80px 30px 80px 30px;
   }
 
   .common-heading{
@@ -1293,6 +1293,7 @@ select#website-select{
 
   .sm-title{
     text-align: center; 
+    font-size: 14px;
   }
 
   .yellow-div-desc {
@@ -1322,7 +1323,7 @@ select#website-select{
   }
 
   .our-proud , .achievements, .photo-gallery{
-    padding: 80px 0px 80px 0px;
+    padding: 80px 30px 80px 30px;
   }
 
   .title .container h3, .proud-content {
@@ -1346,12 +1347,20 @@ select#website-select{
     display: none;
   }
 
+  .achievement-title p, .mission-title p{
+    font-size: 14px;
+  }
+
   .news-content p{
     font-size: 14px;
   }
 
   .gallery-photo-group{
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .mySlides, .mySlides1, .mySlides2, .mySlides3, .mySlides4 {
+    width: 50%;
   }
   
   .footer-links h4{
