@@ -923,7 +923,7 @@ select#website-select{
 }
 
 .header #month {
-  color: #ff5252;
+  color: #085291;
   font-size: 30px;
   font-weight: 600;
 }
@@ -1303,7 +1303,123 @@ select#website-select{
   }
 
 
+  
+  @media screen and (max-width:768px) {
+    .upper-header, .lower-header{
+      display: none;
+    }
+  
+    .mobile-header{
+      display: block;
+    }
+  
+    .section-ptb {
+      padding: 80px 30px 80px 30px;
+    }
+  
+    .common-heading{
+      text-align: center;
+      font-size: 30px;
+    }
+  
+    .sm-title{
+      text-align: center; 
+      font-size: 14px;
+    }
+  
+    .yellow-div-desc {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .mission-imgs, .achievement-img-group{
+      padding: 0;
+    }
+  
+    .achievement-title p, .mission-title p{
+      font-size: 14px;
+    }
 
+    .right-img-achievement{
+      display: none;
+    }
+  
+    .mission-imgs img{
+      margin: 0 auto;
+    }
+    
+    .mission-info{
+      flex-direction: row;
+    }
+  
+    .mission-info img{
+      width: 50px;
+      height: 50px;
+    }
+  
+    .mission-title h4 {
+      font-size: 20px;
+    }
+  
+    .our-proud , .achievements, .photo-gallery{
+      padding: 80px 30px 80px 30px;
+    }
+  
+    .title .container h3, .proud-content {
+      margin: 0;
+    }
+  
+    .about-content .container .row{
+      flex-direction: column-reverse;
+    }
+
+    .event-calender .row{
+      gap: 20px;
+    }
+  
+    .weekdays{
+      font-size: 14px;
+    }
+  
+    .header button{
+      width: 40px;
+      height: 40px;
+    }
+  
+    .left-img-achievement {
+      display: none;
+    }
+  
+    .achievement-content{
+      margin-top: 20px;
+    }
+  
+    .achievement-desc{
+      flex-direction: column;
+    }
+  
+    .gallery-photo-group{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .mySlides, .mySlides1, .mySlides2, .mySlides3, .mySlides4 {
+      width: 50%;
+    }
+    
+    .footer-links h4{
+      margin-bottom: 15px;
+    }
+  
+    .footer-inner .container .row{
+      gap: 20px;
+    }
+  
+    .lower-footer{
+      flex-direction: column;
+      font-size: 12px;
+      gap: 10px;
+    }
+  }
   
 @media screen and (max-width:450px) {
   .upper-header, .lower-header{
