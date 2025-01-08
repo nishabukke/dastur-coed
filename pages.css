@@ -1522,6 +1522,14 @@ select#website-select{
     padding: 80px 30px 80px 30px;
   }
 
+  .about-content-inner, .vm-inner{
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .vm-inner {
+    row-gap: 50px;
+  }
+
   .title .container h3, .proud-content {
     margin: 0;
   }

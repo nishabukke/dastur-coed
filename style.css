@@ -1598,6 +1598,14 @@ form input[type="radio"] {
     font-size: 20px;
   }
 
+  .about-content-inner, .news-event-content .news-event-container, #enquiryForm {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .enquiry-popup{
+    width: 80%;
+  }
+
   .our-proud , .achievements, .photo-gallery{
     padding: 80px 30px 80px 30px;
   }
