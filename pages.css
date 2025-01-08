@@ -520,7 +520,7 @@ select#website-select{
   #carousel .carousel-item .caption-inner {
     color: white;
     animation-duration: 1s;
-    animation-delay: 2s;
+    animation-delay: .5s;
   }
 
   #carousel .carousel-item .caption h2{
@@ -562,18 +562,18 @@ select#website-select{
   
   #carousel .caption h2 {
     animation-duration: 1s;
-    animation-delay: 1s;
+    animation-delay: .3s;
   }
   
   #carousel .caption p {
     animation-duration: 1s;
-    animation-delay: 1.5s;
+    animation-delay: .5s;
     margin: 0;
   }
   
   #carousel .caption a {
     animation-duration: 1s;
-    animation-delay: 1.8s;
+    animation-delay: .7s;
   }
   
   /* Button */
@@ -654,6 +654,13 @@ select#website-select{
     background-color: #f8fbff;
 }
 
+.about-content-inner{
+  display: grid;
+  grid-template-columns: 7.5fr 4.5fr;
+  gap: 30px;
+  align-items: start;
+}
+
 .about-img{
     display: flex;
     flex-direction: column;
@@ -684,6 +691,34 @@ select#website-select{
     text-align: justify;
     color: #080A12;
     font-weight: 500;
+}
+
+.vm-inner{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+
+.vm-inner p, .vm-inner p ul{
+  font-size: 17px;
+}
+
+.vm-left, .vm-middle, .vm-right{
+  background-color: #085291;
+  padding: 60px 20px 20px 20px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.vm-left img, .vm-middle img, .vm-right img{
+  width: 100px;
+  height:  100px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  top: 0%;
 }
 
 /* about page css end */
@@ -1048,10 +1083,16 @@ select#website-select{
 
 #btnSave {
   background-color: #2ed573;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
 }
 
 .btnClose {
   background-color: #2f3542;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
 }
 
 #viewEvent p {
@@ -1060,6 +1101,9 @@ select#website-select{
 
 #btnDelete {
   background-color: #ea2027;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
 }
 
 .error {
@@ -1228,7 +1272,7 @@ select#website-select{
   }
   
   .animated.animated-slow {
-      animation-duration: 2s;
+      animation-duration: .5s;
   }
   
   .fadeIn {
